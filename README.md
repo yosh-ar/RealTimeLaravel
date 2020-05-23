@@ -77,3 +77,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Funcionamiento
+detecta en tiempo real que usuarios se an conectado y desconectado.
+detecta en tiempo real cuando se crea un usuario, ya sea por api o por otro medio.
+actualizar y eliminar son similares asi que solo seria de crear el evento para ambos y listo.
