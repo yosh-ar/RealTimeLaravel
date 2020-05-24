@@ -42,8 +42,7 @@
 <script>
     Echo.channel('users')
     .listen('UserCreated', (e)=>{
-        // console.log(e);
-
+  
         const listadoUl = document.getElementById('users');
     
         let elemtn = document.createElement('li');

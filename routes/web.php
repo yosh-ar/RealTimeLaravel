@@ -22,3 +22,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::view('/users', 'users.userAll')->name('users.all');
+
+//chat
+Route::get('/chat', 'ChatController@ShowChat')->name('home');
+Route::post('/chat/envio', 'ChatController@sendMessage')->name('envio');
